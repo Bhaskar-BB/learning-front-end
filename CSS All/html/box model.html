@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title> padding,margin,border,box-sizing </title>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+
+            }
+            #button1{
+                width: 100px;
+                height: 100px;
+
+                /* top,right,bottom,left */
+                padding: 5px 10px 15px 20px;
+                margin: 30px ;
+                background-color: aqua;
+                /* width solid,dashed,dotted color  */
+                border: 3px solid red;
+                border-radius: 20px;
+                /* content box - all border are define outside the box */
+                box-sizing: content-box;
+                
+            }
+
+            .box{
+                height: 100px;
+                width: 100px;
+                background-color: blueviolet;
+                margin: 30px;
+                border: 3px solid ;
+                /* border box- all border and padding is define inside the box (size of box get small)*/
+                box-sizing: border-box;
+            }
+
+        </style>
+     </head>
+    <body>
+        <button id="button1">click me</button>
+        <div class="box">box1</div>
+        
+    </body>
+
+</html>
