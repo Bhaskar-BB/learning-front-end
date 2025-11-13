@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>display property</title>
+    <style>
+        .b,.b1,.b2,.b3 {
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            border: 2px solid blue;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .b{
+            display: block;
+        }
+        .b1{
+            display: inline;
+        }
+        .b2{
+            display: inline-block;
+        }
+        #b11{
+            display: none;
+        }
+        #h{
+            text-transform: uppercase;
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="h">display property</h1>
+    <hr>
+    <h1>display:block</h1>
+    <div id="b1" class="b">box 1</div>
+    <div id="b2" class="b">box 2</div>
+    <div id="b3" class="b">box 3</div>
+    <hr>
+    <h1>display:inline</h1>
+    <div id="b4" class="b1">box 1</div>
+    <div id="b5" class="b1">box 2</div>
+    <div id="b6" class="b1">box 3</div>
+    <hr>
+    <h1>display:inline block</h1>
+    <div id="b7" class="b2">box 1</div>
+    <div id="b8" class="b2">box 2</div>
+    <div id="b9" class="b2">box 3</div>
+    <hr>
+    <h1>display:none</h1>
+    <div id="b10" class="b3">box 1</div>
+    <div id="b11" class="b3">box 2</div>
+    <div id="b12" class="b3">box 3</div>
+    <hr>
+
+
+</body>
+</html>

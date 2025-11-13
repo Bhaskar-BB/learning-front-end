@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>relative units</title>
+    <style>
+        body{
+            font-size: 40px;
+        }
+        #d1,#d3,#d5{
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            font-size: 10px;
+        }
+        #d2{
+            background-color: blueviolet;
+            height: 50%;
+            width: 75%;
+        }
+        #d4{
+            background-color: blueviolet;
+            height: 50%;
+            width: 75%;
+            font-size: 2em;
+        }
+        #d6{
+            background-color: blueviolet;
+            height: 50%;
+            width: 75%;
+            font-size: 2rem;
+        }
+        #d7{
+            height: 50vh;
+            width: 50vw;
+            background-color: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>RELATIVE UNITS</h1><hr>
+    body(percentage)
+    <div id="d1">
+        first
+        <div id="d2">
+            second
+        </div>
+    </div>
+    <hr>
+    body(EM)
+    <div id="d3">
+        first
+        <div id="d4">
+            second
+        </div>
+    </div>
+    <hr>
+    body(REM)
+    <div id="d5">
+        first
+        <div id="d6">
+            second
+        </div>
+    </div>
+    <hr>
+    body(VW/VH)viewport's width or height
+    <div id="d7"></div>
+</body>
+</html>
