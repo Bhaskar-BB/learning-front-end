@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>position property</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color:rgb(14, 49, 52);
+            margin: 10px;
+            border:2px solid black;
+            text-align: center;
+            color: white;
+        }
+        #d1{
+            position: static;
+        }
+        #d2{
+            position: relative;
+            left: 180px;
+            top: 50px;
+        }
+        #d3{
+            position: absolute;
+            top: 400px;
+            left: 200px;
+            z-index: 1;
+        }
+        #d4{
+            position:fixed;
+            top: 430px;
+            left: 150px;
+            z-index: 2;
+
+        }
+    </style>
+</head>
+<body><h1>postion and z-index property </h1><hr>
+    <div id="d1">1. static</div>
+    <div id="d2">2. relative</div>
+    <div id="d3">3. absolute</div>
+    <div id="d1">1. static</div>
+    <div id="d1">1. static</div>
+    <div id="d1">1. static</div>
+    <div id="d1">1. static</div>
+    <div id="d1">1. static</div>
+    <div id="d4">4. fixed</div>
+    
+</body>
+</html>
